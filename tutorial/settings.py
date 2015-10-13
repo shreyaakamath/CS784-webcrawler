@@ -10,9 +10,9 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
 BOT_NAME = 'tutorial'
-
 SPIDER_MODULES = ['tutorial.spiders']
 NEWSPIDER_MODULE = 'tutorial.spiders'
+DOWNLOAD_DELAY = 0.25
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

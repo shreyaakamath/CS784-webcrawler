@@ -11,5 +11,29 @@ import scrapy
     # name = scrapy.Field()
 class DmozItem(scrapy.Item):
     title = scrapy.Field()
-    link = scrapy.Field()
-    desc = scrapy.Field()
+    time = scrapy.Field()
+    cost = scrapy.Field()
+    year = scrapy.Field()
+    director = scrapy.Field()
+    star = scrapy.Field()
+
+class RottanItem(scrapy.Item):
+    title = scrapy.Field()
+    time = scrapy.Field()
+    year = scrapy.Field()
+    director = scrapy.Field()
+    star1 = scrapy.Field()
+    star2 = scrapy.Field()
+    star3 = scrapy.Field()
+    star4 = scrapy.Field()
+    star5 = scrapy.Field()
+    star6 = scrapy.Field()
+    tomatome_rating = scrapy.Field()
+    audience_rating = scrapy.Field()
+    review1 = scrapy.Field()
+    review2 = scrapy.Field()
+    review3 = scrapy.Field()
+    review4 = scrapy.Field()
+    review5 = scrapy.Field()
+
+
